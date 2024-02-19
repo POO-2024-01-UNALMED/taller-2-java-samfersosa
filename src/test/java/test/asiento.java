@@ -8,4 +8,4 @@ public class asiento {
 	public void cambiarColor(String color) {
 		if (color == "amarillo" || color == "verde" || color == "rojo" || color == "negro" || color == "blanco")
 			this.color = color;
-	}
+	}}
