@@ -8,8 +8,8 @@ int registro;
 		this.registro = newregistro;
 	
 	}
-	public void asignarTipo(String newtipo) {
-		if(tipo == "eleticro" || tipo == "gasolina")
+	public String asignarTipo() {
+		if(newtipo == "eleticro" || newtipo == "gasolina")
 			this.tipo = newtipo;
 		
 	}
