@@ -9,8 +9,11 @@ int registro;
 	
 	}
 	public void asignarTipo(String newtipo) {
-		if(newtipo == "eleticro" || newtipo == "gasolina")
-			this.tipo = newtipo;
+	    if ("eleticro".equals(tipo) || "gasolina".equals(tipo)) {
+	        this.tipo = newtipo;
+	    }
+	}
+
 		
 	}
-}
+
